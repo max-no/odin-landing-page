@@ -81,7 +81,7 @@ li.logo {
     color: #E5E7EB;
 }
 
-.sign-up {
+.hero-left-content .sign-up {
     width: 100px;
     border-radius: 8px;
     padding: 8px;
@@ -97,6 +97,7 @@ li.logo {
     min-height: 300px;
     justify-content: space-around;
     align-items: center;
+    padding: 48px;
 }
 
 .random-info-title {
@@ -111,6 +112,7 @@ li.logo {
     justify-content: center;
     align-items: center;
     max-width: 700px;
+    gap: 12px;
 }
 
 .content-card {
@@ -137,11 +139,76 @@ li.logo {
 
 .quote {
     min-height: 300px;
-    background: #E5E7EB;
+    background: #E5E7EB; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text-block {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    padding: 48px;
+    gap: 8px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: left;
+}
+
+.quote-attribution {
+    margin-left: auto;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .call-to-action {
     min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.cta-background {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 700px;
+    min-width: 300px;
+    width: 100%;
+    height: 100px;
+    background: #3882F6;
+    border-radius: 8px;
+    gap: 12px;
+    
+}
+
+.cta-title-text {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.cta-subtext {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.cta-background .sign-up {
+    width: 100px;
+    border-radius: 8px;
+    padding: 8px;
+    color: #F9FAF8;
+    background: #3882F6;
+    font-weight: 600;
+    border: solid 1.5px #F9FAF8;
 }
 
 .footer {
