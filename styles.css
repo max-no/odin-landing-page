@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto,'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 1; */
+}
+
+.header {
+    height: 72px;
+    background: #1F2937;
+    color: #F9FAF8;    
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    gap: 36px;
+    flex: 1;
+    padding: 0 48px;
+}
+
+.header a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li.logo {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.hero {
+    min-height: 350px;
+    background: #1F2937;
+    padding: 0 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.hero-left-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 250px;
+    gap: 12px;
+    flex: 1;
+}
+
+.hero-right-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-right-content img {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    min-width: 250px;
+}
+
+.hero-title-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    width: 100px;
+    border-radius: 8px;
+    padding: 8px;
+    color: #F9FAF8;
+    background: #3882F6;
+    font-weight: 600;
+    border: 0px;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.random-info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+
+}
+
+.card-and-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+}
+
+.content-card {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 8px;
+}
+
+
+.img {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+  
+}
+
+.content-card .text {
+    font-size: 16px;
+    color: #a2a2a4;
+}
+
+.quote {
+    min-height: 300px;
+    background: #E5E7EB;
+}
+
+.call-to-action {
+    min-height: 300px;
+}
+
+.footer {
+    height: 72px;
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 12px;
+}
